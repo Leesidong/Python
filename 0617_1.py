@@ -20,3 +20,40 @@ c = dsum(1,2)
 
 print(c)
 
+
+# 반복문 (for, while)
+
+for i in range(5):
+    print(i)
+    print("반복반복")
+
+i = 0
+
+while i<3:
+    print(i)
+    print("While 반복")
+    i=i+1
+
+
+#break, continue
+i=0
+
+while True:
+    print(i)
+    print("무한 루프")
+
+    i = i +1
+
+    if i>2:
+        break
+
+
+for i in range(3):
+    print(i)
+    print("Continue")
+
+    continue
+
+    print("안나와")
+
+#37:21
